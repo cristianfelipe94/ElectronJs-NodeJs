@@ -1,0 +1,14 @@
+body {
+    background-color: #393b50;
+    color: #c2fcfe;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.site-header {
+    text-align: center;
+}
+
+.banner-width {
+    width: 100%;
+}

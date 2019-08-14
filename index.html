@@ -2,15 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <meta name="author" content="Felipe">
+    <meta name="description" content="This is a test app, made using ElectronJs and NodeJs.">
+    <title>Electron and NodeJs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
-
-    <!-- You can also require other files to run in this process -->
+    <div class="site-header">
+      <img src="./electron-banner.jpg" alt="ElectronJs banner" class="banner-width">
+      <h1>Electron Says Hello World!</h1>
+      <p>Felipe's test ElectronJs</p>
+    </div>
     <script src="./renderer.js"></script>
   </body>
 </html>
